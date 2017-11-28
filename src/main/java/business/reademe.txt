@@ -1,0 +1,5 @@
+Service服务
+1、接口统一命名 I 开头 例如 : IOperationService
+2、对外Service必须实现接口 实现类命名 例如 ：OperationServiceImpl  （接口名去掉 I 末尾 加 Impl）
+3、实现类放到接口包下的impl包中
+4、实现类必须加入完善日志记录DEBU、INFO、WARN、ERROR4种 级别 例如：private Log log = LogFactory.getLog(RemoteService.class);

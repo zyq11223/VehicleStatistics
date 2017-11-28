@@ -1,6 +1,5 @@
 package com.datascience.test
 
-import com.datascience.test.{Track, SecondarySort}
 import org.apache.spark.{SparkConf, SparkContext}
 
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/hadoop"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:solr="http://www.springframework.org/schema/data/solr"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	  http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	  http://www.springframework.org/schema/hadoop http://www.springframework.org/schema/hadoop/spring-hadoop.xsd
+	  http://www.springframework.org/schema/data/solr http://www.springframework.org/schema/data/solr/spring-solr-1.0.xsd">
+
+	<configuration>
+		fs.defaultFS=${hd.fs}
+		yarn.resourcemanager.address=${hd.rm}
+		mapreduce.framework.name=yarn
+		mapreduce.jobhistory.address=${hd.jh}
+	</configuration>
+	
+	<hbase-configuration  zk-quorum="${zookeeper.quorum}"  zk-port="${zookeeper.property.clientPort}"  />
+	
+	<!--<hive-server port="${hive.port}" auto-startup="true" />-->
+	<hive-client-factory host="${hive.host}" port="10001"/>	
+	
+	<!-- <solr:solr-server id="solrServer" url="${solr.url}" /> -->
+	
+	<!-- Sqoop2 客户端 -->
+	<!-- 
+	<beans:bean id="sqoopClient" class="org.apache.sqoop.client.SqoopClient">
+		<beans:constructor-arg value="${sqoop2.url}"/>
+	</beans:bean>
+  -->
+  
+</beans:beans>

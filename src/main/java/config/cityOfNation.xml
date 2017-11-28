@@ -1,0 +1,2613 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<cityOfNation>
+    <city sequence="-1">
+        <city_name>未知</city_name>
+        <city_key>未知</city_key>
+        <province_id>-1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="1">
+        <city_name>湖南省(湘)</city_name>
+        <city_key>湘</city_key>
+        <province_id>0</province_id>
+        <letter>x</letter>
+    </city>
+    <city sequence="2">
+        <city_name>长沙市</city_name>
+        <city_key>湘a</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="3">
+        <city_name>株洲市</city_name>
+        <city_key>湘b</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="4">
+        <city_name>湘潭市</city_name>
+        <city_key>湘c</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="5">
+        <city_name>衡阳市</city_name>
+        <city_key>湘d</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="6">
+        <city_name>邵阳市</city_name>
+        <city_key>湘e</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="7">
+        <city_name>岳阳市</city_name>
+        <city_key>湘f</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="8">
+        <city_name>张家界市</city_name>
+        <city_key>湘g</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="9">
+        <city_name>益阳市</city_name>
+        <city_key>湘h</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="10">
+        <city_name>常德市</city_name>
+        <city_key>湘j</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="11">
+        <city_name>娄底市</city_name>
+        <city_key>湘k</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="12">
+        <city_name>郴州市</city_name>
+        <city_key>湘l</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="13">
+        <city_name>永州市</city_name>
+        <city_key>湘m</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="14">
+        <city_name>怀化市</city_name>
+        <city_key>湘n</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="15">
+        <city_name>湘西土家族苗族自治州</city_name>
+        <city_key>湘u</city_key>
+        <province_id>1</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="16">
+        <city_name>湖北省(鄂)</city_name>
+        <city_key>鄂</city_key>
+        <province_id>0</province_id>
+        <letter>e</letter>
+    </city>
+    <city sequence="17">
+        <city_name>武汉市</city_name>
+        <city_key>鄂a</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="18">
+        <city_name>黄石市</city_name>
+        <city_key>鄂b</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="19">
+        <city_name>十堰市</city_name>
+        <city_key>鄂c</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="20">
+        <city_name>荆州市</city_name>
+        <city_key>鄂d</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="21">
+        <city_name>宜昌市</city_name>
+        <city_key>鄂e</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="22">
+        <city_name>襄樊市</city_name>
+        <city_key>鄂f</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="23">
+        <city_name>鄂州市</city_name>
+        <city_key>鄂g</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="24">
+        <city_name>荆门市</city_name>
+        <city_key>鄂h</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="25">
+        <city_name>黄冈市</city_name>
+        <city_key>鄂j</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="26">
+        <city_name>孝感市</city_name>
+        <city_key>鄂k</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="27">
+        <city_name>咸宁市</city_name>
+        <city_key>鄂l</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="28">
+        <city_name>仙桃市</city_name>
+        <city_key>鄂m</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="29">
+        <city_name>潜江市</city_name>
+        <city_key>鄂n</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="30">
+        <city_name>神农架林区</city_name>
+        <city_key>鄂p</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="31">
+        <city_name>恩施土家族苗族自治州</city_name>
+        <city_key>鄂q</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="32">
+        <city_name>天门市</city_name>
+        <city_key>鄂r</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="33">
+        <city_name>随州市</city_name>
+        <city_key>鄂s</city_key>
+        <province_id>16</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="34">
+        <city_name>河南省(豫)</city_name>
+        <city_key>豫</city_key>
+        <province_id>0</province_id>
+        <letter>y</letter>
+    </city>
+    <city sequence="35">
+        <city_name>郑州市</city_name>
+        <city_key>豫a</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="36">
+        <city_name>开封市</city_name>
+        <city_key>豫b</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="37">
+        <city_name>洛阳市</city_name>
+        <city_key>豫c</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="38">
+        <city_name>平顶山市</city_name>
+        <city_key>豫d</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="39">
+        <city_name>安阳市</city_name>
+        <city_key>豫e</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="40">
+        <city_name>鹤壁市</city_name>
+        <city_key>豫f</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="41">
+        <city_name>新乡市</city_name>
+        <city_key>豫g</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="42">
+        <city_name>焦作市</city_name>
+        <city_key>豫h</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="43">
+        <city_name>濮阳市</city_name>
+        <city_key>豫j</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="44">
+        <city_name>许昌市</city_name>
+        <city_key>豫k</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="45">
+        <city_name>漯河市</city_name>
+        <city_key>豫l</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="46">
+        <city_name>三门峡市</city_name>
+        <city_key>豫m</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="47">
+        <city_name>商丘市</city_name>
+        <city_key>豫n</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="48">
+        <city_name>周口市</city_name>
+        <city_key>豫p</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="49">
+        <city_name>驻马店市</city_name>
+        <city_key>豫q</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="50">
+        <city_name>南阳市</city_name>
+        <city_key>豫r</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="51">
+        <city_name>信阳市</city_name>
+        <city_key>豫s</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="52">
+        <city_name>济源市</city_name>
+        <city_key>豫u</city_key>
+        <province_id>34</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="53">
+        <city_name>河北省(冀)</city_name>
+        <city_key>冀</city_key>
+        <province_id>0</province_id>
+        <letter>j</letter>
+    </city>
+    <city sequence="54">
+        <city_name>石家庄市</city_name>
+        <city_key>冀a</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="55">
+        <city_name>唐山市</city_name>
+        <city_key>冀b</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="56">
+        <city_name>秦皇岛市</city_name>
+        <city_key>冀c</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="57">
+        <city_name>邯郸市</city_name>
+        <city_key>冀d</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="58">
+        <city_name>邢台市</city_name>
+        <city_key>冀e</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="59">
+        <city_name>保定市</city_name>
+        <city_key>冀f</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="60">
+        <city_name>张家口市</city_name>
+        <city_key>冀g</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="61">
+        <city_name>承德市</city_name>
+        <city_key>冀h</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="62">
+        <city_name>沧州市</city_name>
+        <city_key>冀j</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="63">
+        <city_name>廊坊市</city_name>
+        <city_key>冀r</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="64">
+        <city_name>沧州市</city_name>
+        <city_key>冀s</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="65">
+        <city_name>衡水市</city_name>
+        <city_key>冀t</city_key>
+        <province_id>53</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="66">
+        <city_name>云南省(云)</city_name>
+        <city_key>云</city_key>
+        <province_id>0</province_id>
+        <letter>y</letter>
+    </city>
+    <city sequence="67">
+        <city_name>昆明市</city_name>
+        <city_key>云a</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="68">
+        <city_name>东川市</city_name>
+        <city_key>云a-v</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="69">
+        <city_name>昭通市</city_name>
+        <city_key>云c</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="70">
+        <city_name>曲靖市</city_name>
+        <city_key>云d</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="71">
+        <city_name>楚雄彝族自治州</city_name>
+        <city_key>云e</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="72">
+        <city_name>玉溪市</city_name>
+        <city_key>云f</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="73">
+        <city_name>红河哈尼族彝族自治州</city_name>
+        <city_key>云g</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="74">
+        <city_name>文山壮族苗族自治州</city_name>
+        <city_key>云h</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="75">
+        <city_name>思茅市</city_name>
+        <city_key>云j</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="76">
+        <city_name>西双版纳傣族自治州</city_name>
+        <city_key>云k</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="77">
+        <city_name>大理白族自治州</city_name>
+        <city_key>云l</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="78">
+        <city_name>保山市</city_name>
+        <city_key>云m</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="79">
+        <city_name>德宏傣族景颇族自治州</city_name>
+        <city_key>云n</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="80">
+        <city_name>丽江市</city_name>
+        <city_key>云p</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="81">
+        <city_name>怒江傈僳族自治州</city_name>
+        <city_key>云q</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="82">
+        <city_name>迪庆藏族自治州</city_name>
+        <city_key>云r</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="83">
+        <city_name>临沧地区</city_name>
+        <city_key>云s</city_key>
+        <province_id>66</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="84">
+        <city_name>辽宁省(辽)</city_name>
+        <city_key>辽</city_key>
+        <province_id>0</province_id>
+        <letter>l</letter>
+    </city>
+    <city sequence="85">
+        <city_name>沈阳市</city_name>
+        <city_key>辽a</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="86">
+        <city_name>大连市</city_name>
+        <city_key>辽b</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="87">
+        <city_name>鞍山市</city_name>
+        <city_key>辽c</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="88">
+        <city_name>抚顺市</city_name>
+        <city_key>辽d</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="89">
+        <city_name>本溪市</city_name>
+        <city_key>辽e</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="90">
+        <city_name>丹东市</city_name>
+        <city_key>辽f</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="91">
+        <city_name>锦州市</city_name>
+        <city_key>辽g</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="92">
+        <city_name>营口市</city_name>
+        <city_key>辽h</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="93">
+        <city_name>阜新市</city_name>
+        <city_key>辽j</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="94">
+        <city_name>辽阳市</city_name>
+        <city_key>辽k</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="95">
+        <city_name>盘锦市</city_name>
+        <city_key>辽l</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="96">
+        <city_name>铁岭市</city_name>
+        <city_key>辽m</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="97">
+        <city_name>朝阳市</city_name>
+        <city_key>辽n</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="98">
+        <city_name>葫芦岛市</city_name>
+        <city_key>辽p</city_key>
+        <province_id>84</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="99">
+        <city_name>黑龙江省(黑)</city_name>
+        <city_key>黑</city_key>
+        <province_id>0</province_id>
+        <letter>h</letter>
+    </city>
+    <city sequence="100">
+        <city_name>哈尔滨市</city_name>
+        <city_key>黑a</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="101">
+        <city_name>齐齐哈尔市</city_name>
+        <city_key>黑b</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="102">
+        <city_name>牡丹江市</city_name>
+        <city_key>黑c</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="103">
+        <city_name>佳木斯市</city_name>
+        <city_key>黑d</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="104">
+        <city_name>大庆市</city_name>
+        <city_key>黑e</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="105">
+        <city_name>伊春市</city_name>
+        <city_key>黑f</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="106">
+        <city_name>鸡西市</city_name>
+        <city_key>黑g</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="107">
+        <city_name>鹤岗市</city_name>
+        <city_key>黑h</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="108">
+        <city_name>双鸭山市</city_name>
+        <city_key>黑j</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="109">
+        <city_name>七台河市</city_name>
+        <city_key>黑k</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="110">
+        <city_name>松花江地区(已并入哈尔滨市，车牌未改)</city_name>
+        <city_key>黑l</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="111">
+        <city_name>绥化市</city_name>
+        <city_key>黑m</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="112">
+        <city_name>黑河市</city_name>
+        <city_key>黑n</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="113">
+        <city_name>大兴安岭地区</city_name>
+        <city_key>黑p</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="114">
+        <city_name>农恳系统</city_name>
+        <city_key>黑r</city_key>
+        <province_id>99</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="115">
+        <city_name>安徽省(皖)</city_name>
+        <city_key>皖</city_key>
+        <province_id>0</province_id>
+        <letter>w</letter>
+    </city>
+    <city sequence="116">
+        <city_name>合肥市</city_name>
+        <city_key>皖a</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="117">
+        <city_name>芜湖市</city_name>
+        <city_key>皖b</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="118">
+        <city_name>蚌埠市</city_name>
+        <city_key>皖c</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="119">
+        <city_name>淮南市</city_name>
+        <city_key>皖d</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="120">
+        <city_name>马鞍山市</city_name>
+        <city_key>皖e</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="121">
+        <city_name>淮北市</city_name>
+        <city_key>皖f</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="122">
+        <city_name>铜陵市</city_name>
+        <city_key>皖g</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="123">
+        <city_name>安庆市</city_name>
+        <city_key>皖h</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="124">
+        <city_name>黄山市</city_name>
+        <city_key>皖j</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="125">
+        <city_name>阜阳市</city_name>
+        <city_key>皖k</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="126">
+        <city_name>宿州市</city_name>
+        <city_key>皖l</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="127">
+        <city_name>滁州市</city_name>
+        <city_key>皖m</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="128">
+        <city_name>六安市</city_name>
+        <city_key>皖n</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="129">
+        <city_name>宣城市</city_name>
+        <city_key>皖p</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="130">
+        <city_name>巢湖市</city_name>
+        <city_key>皖q</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="131">
+        <city_name>池州市</city_name>
+        <city_key>皖r</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="132">
+        <city_name>亳州市</city_name>
+        <city_key>皖s</city_key>
+        <province_id>115</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="133">
+        <city_name>山东省(鲁)</city_name>
+        <city_key>鲁</city_key>
+        <province_id>0</province_id>
+        <letter>l</letter>
+    </city>
+    <city sequence="134">
+        <city_name>济南市</city_name>
+        <city_key>鲁a</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="135">
+        <city_name>青岛市</city_name>
+        <city_key>鲁b</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="136">
+        <city_name>淄博市</city_name>
+        <city_key>鲁c</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="137">
+        <city_name>枣庄市</city_name>
+        <city_key>鲁d</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="138">
+        <city_name>东营市</city_name>
+        <city_key>鲁e</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="139">
+        <city_name>烟台市</city_name>
+        <city_key>鲁f</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="140">
+        <city_name>潍坊市</city_name>
+        <city_key>鲁g</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="141">
+        <city_name>济宁市</city_name>
+        <city_key>鲁h</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="142">
+        <city_name>泰安市</city_name>
+        <city_key>鲁j</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="143">
+        <city_name>威海市</city_name>
+        <city_key>鲁k</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="144">
+        <city_name>日照市</city_name>
+        <city_key>鲁l</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="145">
+        <city_name>滨州市</city_name>
+        <city_key>鲁m</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="146">
+        <city_name>德州市</city_name>
+        <city_key>鲁n</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="147">
+        <city_name>聊城市</city_name>
+        <city_key>鲁p</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="148">
+        <city_name>临沂市</city_name>
+        <city_key>鲁q</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="149">
+        <city_name>菏泽市</city_name>
+        <city_key>鲁r</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="150">
+        <city_name>莱芜市</city_name>
+        <city_key>鲁s</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="151">
+        <city_name>青岛市</city_name>
+        <city_key>鲁u</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="152">
+        <city_name>潍坊市</city_name>
+        <city_key>鲁v</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="153">
+        <city_name>烟台市</city_name>
+        <city_key>鲁y</city_key>
+        <province_id>133</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="154">
+        <city_name>新疆维吾尔(新)</city_name>
+        <city_key>新</city_key>
+        <province_id>0</province_id>
+        <letter>x</letter>
+    </city>
+    <city sequence="155">
+        <city_name>乌鲁木齐市</city_name>
+        <city_key>新a</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="156">
+        <city_name>昌吉回族自治州</city_name>
+        <city_key>新b</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="157">
+        <city_name>石河子市</city_name>
+        <city_key>新c</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="158">
+        <city_name>奎屯市</city_name>
+        <city_key>新d</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="159">
+        <city_name>博尔塔拉蒙古自治州</city_name>
+        <city_key>新e</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="160">
+        <city_name>伊犁哈萨克自治州直辖县</city_name>
+        <city_key>新f</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="161">
+        <city_name>塔城市</city_name>
+        <city_key>新g</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="162">
+        <city_name>阿勒泰市</city_name>
+        <city_key>新h</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="163">
+        <city_name>克拉玛依市</city_name>
+        <city_key>新j</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="164">
+        <city_name>吐鲁番市</city_name>
+        <city_key>新k</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="165">
+        <city_name>哈密市</city_name>
+        <city_key>新l</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="166">
+        <city_name>巴音郭愣蒙古自治州</city_name>
+        <city_key>新m</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="167">
+        <city_name>阿克苏市</city_name>
+        <city_key>新n</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="168">
+        <city_name>克孜勒苏柯尔克孜自治州</city_name>
+        <city_key>新p</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="169">
+        <city_name>喀什市</city_name>
+        <city_key>新q</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="170">
+        <city_name>和田市</city_name>
+        <city_key>新r</city_key>
+        <province_id>154</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="171">
+        <city_name>江苏省(苏)</city_name>
+        <city_key>苏</city_key>
+        <province_id>0</province_id>
+        <letter>s</letter>
+    </city>
+    <city sequence="172">
+        <city_name>南京市</city_name>
+        <city_key>苏a</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="173">
+        <city_name>无锡市</city_name>
+        <city_key>苏b</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="174">
+        <city_name>徐州市</city_name>
+        <city_key>苏c</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="175">
+        <city_name>常州市</city_name>
+        <city_key>苏d</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="176">
+        <city_name>苏州市</city_name>
+        <city_key>苏e</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="177">
+        <city_name>南通市</city_name>
+        <city_key>苏f</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="178">
+        <city_name>连云港市</city_name>
+        <city_key>苏g</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="179">
+        <city_name>淮安市</city_name>
+        <city_key>苏h</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="180">
+        <city_name>盐城市</city_name>
+        <city_key>苏j</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="181">
+        <city_name>扬州市</city_name>
+        <city_key>苏k</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="182">
+        <city_name>镇江市</city_name>
+        <city_key>苏l</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="183">
+        <city_name>泰州市</city_name>
+        <city_key>苏m</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="184">
+        <city_name>宿迁市</city_name>
+        <city_key>苏n</city_key>
+        <province_id>171</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="185">
+        <city_name>浙江省(浙)</city_name>
+        <city_key>浙</city_key>
+        <province_id>0</province_id>
+        <letter>z</letter>
+    </city>
+    <city sequence="186">
+        <city_name>杭州市</city_name>
+        <city_key>浙a</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="187">
+        <city_name>宁波市</city_name>
+        <city_key>浙b</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="188">
+        <city_name>温州市</city_name>
+        <city_key>浙c</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="189">
+        <city_name>绍兴市</city_name>
+        <city_key>浙d</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="190">
+        <city_name>湖州市</city_name>
+        <city_key>浙e</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="191">
+        <city_name>嘉兴市</city_name>
+        <city_key>浙f</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="192">
+        <city_name>金华市</city_name>
+        <city_key>浙g</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="193">
+        <city_name>衢州市</city_name>
+        <city_key>浙h</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="194">
+        <city_name>台州市</city_name>
+        <city_key>浙j</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="195">
+        <city_name>丽水市</city_name>
+        <city_key>浙k</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="196">
+        <city_name>舟山市</city_name>
+        <city_key>浙l</city_key>
+        <province_id>185</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="197">
+        <city_name>江西省(赣)</city_name>
+        <city_key>赣</city_key>
+        <province_id>0</province_id>
+        <letter>g</letter>
+    </city>
+    <city sequence="198">
+        <city_name>南昌市</city_name>
+        <city_key>赣a</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="199">
+        <city_name>赣州市</city_name>
+        <city_key>赣b</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="200">
+        <city_name>宜春市</city_name>
+        <city_key>赣c</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="201">
+        <city_name>吉安市</city_name>
+        <city_key>赣d</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="202">
+        <city_name>上饶市</city_name>
+        <city_key>赣e</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="203">
+        <city_name>抚州市</city_name>
+        <city_key>赣f</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="204">
+        <city_name>九江市</city_name>
+        <city_key>赣g</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="205">
+        <city_name>景德镇市</city_name>
+        <city_key>赣h</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="206">
+        <city_name>萍乡市</city_name>
+        <city_key>赣j</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="207">
+        <city_name>新余市</city_name>
+        <city_key>赣k</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="208">
+        <city_name>鹰潭市</city_name>
+        <city_key>赣l</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="209">
+        <city_name>南昌市,省直系统</city_name>
+        <city_key>赣m</city_key>
+        <province_id>197</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="210">
+        <city_name>广西壮族(桂)</city_name>
+        <city_key>桂</city_key>
+        <province_id>0</province_id>
+        <letter>g</letter>
+    </city>
+    <city sequence="211">
+        <city_name>南宁市</city_name>
+        <city_key>桂a</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="212">
+        <city_name>柳州市</city_name>
+        <city_key>桂b</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="213">
+        <city_name>桂林市</city_name>
+        <city_key>桂c</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="214">
+        <city_name>梧州市</city_name>
+        <city_key>桂d</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="215">
+        <city_name>北海市</city_name>
+        <city_key>桂e</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="216">
+        <city_name>崇左市</city_name>
+        <city_key>桂f</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="217">
+        <city_name>来宾市</city_name>
+        <city_key>桂g</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="218">
+        <city_name>桂林地区</city_name>
+        <city_key>桂h</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="219">
+        <city_name>贺州市</city_name>
+        <city_key>桂j</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="220">
+        <city_name>玉林市</city_name>
+        <city_key>桂k</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="221">
+        <city_name>百色市</city_name>
+        <city_key>桂l</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="222">
+        <city_name>河池市</city_name>
+        <city_key>桂m</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="223">
+        <city_name>钦州市</city_name>
+        <city_key>桂n</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="224">
+        <city_name>防城港市</city_name>
+        <city_key>桂p</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="225">
+        <city_name>贵港市</city_name>
+        <city_key>桂r</city_key>
+        <province_id>210</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="226">
+        <city_name>广东省(粤)</city_name>
+        <city_key>粤</city_key>
+        <province_id>0</province_id>
+        <letter>y</letter>
+    </city>
+    <city sequence="227">
+        <city_name>广州市</city_name>
+        <city_key>粤a</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="228">
+        <city_name>深圳市</city_name>
+        <city_key>粤b</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="229">
+        <city_name>珠海市</city_name>
+        <city_key>粤c</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="230">
+        <city_name>汕头市</city_name>
+        <city_key>粤d</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="231">
+        <city_name>佛山市</city_name>
+        <city_key>粤e</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="232">
+        <city_name>韶关市</city_name>
+        <city_key>粤f</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="233">
+        <city_name>湛江市</city_name>
+        <city_key>粤g</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="234">
+        <city_name>肇庆市</city_name>
+        <city_key>粤h</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="235">
+        <city_name>江门市</city_name>
+        <city_key>粤j</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="236">
+        <city_name>茂名市</city_name>
+        <city_key>粤k</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="237">
+        <city_name>惠州市</city_name>
+        <city_key>粤l</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="238">
+        <city_name>梅州市</city_name>
+        <city_key>粤m</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="239">
+        <city_name>汕尾市</city_name>
+        <city_key>粤n</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="240">
+        <city_name>河源市</city_name>
+        <city_key>粤p</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="241">
+        <city_name>阳江市</city_name>
+        <city_key>粤q</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="242">
+        <city_name>清远市</city_name>
+        <city_key>粤r</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="243">
+        <city_name>东莞市</city_name>
+        <city_key>粤s</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="244">
+        <city_name>中山市</city_name>
+        <city_key>粤t</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="245">
+        <city_name>潮州市</city_name>
+        <city_key>粤u</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="246">
+        <city_name>揭阳市</city_name>
+        <city_key>粤v</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="247">
+        <city_name>云浮市</city_name>
+        <city_key>粤w</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="248">
+        <city_name>顺德区</city_name>
+        <city_key>粤x</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="249">
+        <city_name>南海区</city_name>
+        <city_key>粤y</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="250">
+        <city_name>港澳进入内地车辆</city_name>
+        <city_key>粤z</city_key>
+        <province_id>226</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="251">
+        <city_name>甘肃省(甘)</city_name>
+        <city_key>甘</city_key>
+        <province_id>0</province_id>
+        <letter>g</letter>
+    </city>
+    <city sequence="252">
+        <city_name>兰州市</city_name>
+        <city_key>甘a</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="253">
+        <city_name>嘉峪关市</city_name>
+        <city_key>甘b</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="254">
+        <city_name>金昌市</city_name>
+        <city_key>甘c</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="255">
+        <city_name>白银市</city_name>
+        <city_key>甘d</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="256">
+        <city_name>天水市</city_name>
+        <city_key>甘e</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="257">
+        <city_name>酒泉市</city_name>
+        <city_key>甘f</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="258">
+        <city_name>张掖市</city_name>
+        <city_key>甘g</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="259">
+        <city_name>武威市</city_name>
+        <city_key>甘h</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="260">
+        <city_name>定西市</city_name>
+        <city_key>甘j</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="261">
+        <city_name>陇南市</city_name>
+        <city_key>甘k</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="262">
+        <city_name>平凉市</city_name>
+        <city_key>甘l</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="263">
+        <city_name>庆阳市</city_name>
+        <city_key>甘m</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="264">
+        <city_name>临夏回族自治州</city_name>
+        <city_key>甘n</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="265">
+        <city_name>甘南藏族自治州</city_name>
+        <city_key>甘p</city_key>
+        <province_id>251</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="266">
+        <city_name>山西省(晋)</city_name>
+        <city_key>晋</city_key>
+        <province_id>0</province_id>
+        <letter>j</letter>
+    </city>
+    <city sequence="267">
+        <city_name>太原市</city_name>
+        <city_key>晋a</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="268">
+        <city_name>大同市</city_name>
+        <city_key>晋b</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="269">
+        <city_name>阳泉市</city_name>
+        <city_key>晋c</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="270">
+        <city_name>长治市</city_name>
+        <city_key>晋d</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="271">
+        <city_name>晋城市</city_name>
+        <city_key>晋e</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="272">
+        <city_name>朔州市</city_name>
+        <city_key>晋f</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="273">
+        <city_name>忻州市</city_name>
+        <city_key>晋h</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="274">
+        <city_name>吕梁地区</city_name>
+        <city_key>晋j</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="275">
+        <city_name>晋中市</city_name>
+        <city_key>晋k</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="276">
+        <city_name>临汾市</city_name>
+        <city_key>晋l</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="277">
+        <city_name>运城市</city_name>
+        <city_key>晋m</city_key>
+        <province_id>266</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="278">
+        <city_name>内蒙古(蒙)</city_name>
+        <city_key>蒙</city_key>
+        <province_id>0</province_id>
+        <letter>m</letter>
+    </city>
+    <city sequence="279">
+        <city_name>呼和浩特市</city_name>
+        <city_key>蒙a</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="280">
+        <city_name>包头市</city_name>
+        <city_key>蒙b</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="281">
+        <city_name>乌海市</city_name>
+        <city_key>蒙c</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="282">
+        <city_name>赤峰市</city_name>
+        <city_key>蒙d</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="283">
+        <city_name>呼伦贝尔市</city_name>
+        <city_key>蒙e</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="284">
+        <city_name>兴安盟</city_name>
+        <city_key>蒙f</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="285">
+        <city_name>通辽市</city_name>
+        <city_key>蒙g</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="286">
+        <city_name>锡林郭勒盟</city_name>
+        <city_key>蒙h</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="287">
+        <city_name>乌兰察布盟</city_name>
+        <city_key>蒙j</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="288">
+        <city_name>鄂尔多斯市</city_name>
+        <city_key>蒙k</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="289">
+        <city_name>巴彦淖尔盟</city_name>
+        <city_key>蒙l</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="290">
+        <city_name>阿拉善盟</city_name>
+        <city_key>蒙m</city_key>
+        <province_id>278</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="291">
+        <city_name>陕西省(陕)</city_name>
+        <city_key>陕</city_key>
+        <province_id>0</province_id>
+        <letter>s</letter>
+    </city>
+    <city sequence="292">
+        <city_name>西安市</city_name>
+        <city_key>陕a</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="293">
+        <city_name>铜川市</city_name>
+        <city_key>陕b</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="294">
+        <city_name>宝鸡市</city_name>
+        <city_key>陕c</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="295">
+        <city_name>咸阳市</city_name>
+        <city_key>陕d</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="296">
+        <city_name>渭南市</city_name>
+        <city_key>陕e</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="297">
+        <city_name>汉中市</city_name>
+        <city_key>陕f</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="298">
+        <city_name>安康市</city_name>
+        <city_key>陕g</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="299">
+        <city_name>商洛市</city_name>
+        <city_key>陕h</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="300">
+        <city_name>延安市</city_name>
+        <city_key>陕j</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="301">
+        <city_name>榆林市</city_name>
+        <city_key>陕k</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="302">
+        <city_name>杨凌高新农业示范区</city_name>
+        <city_key>陕v</city_key>
+        <province_id>291</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="303">
+        <city_name>吉林省(吉)</city_name>
+        <city_key>吉</city_key>
+        <province_id>0</province_id>
+        <letter>j</letter>
+    </city>
+    <city sequence="304">
+        <city_name>长春市</city_name>
+        <city_key>吉a</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="305">
+        <city_name>吉林市</city_name>
+        <city_key>吉b</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="306">
+        <city_name>四平市</city_name>
+        <city_key>吉c</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="307">
+        <city_name>辽源市</city_name>
+        <city_key>吉d</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="308">
+        <city_name>通化市</city_name>
+        <city_key>吉e</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="309">
+        <city_name>白山市</city_name>
+        <city_key>吉f</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="310">
+        <city_name>白城市</city_name>
+        <city_key>吉g</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="311">
+        <city_name>延边朝鲜族自治州</city_name>
+        <city_key>吉h</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="312">
+        <city_name>松原市</city_name>
+        <city_key>吉j</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="313">
+        <city_name>长白山</city_name>
+        <city_key>吉k</city_key>
+        <province_id>303</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="314">
+        <city_name>福建省(闽)</city_name>
+        <city_key>闽</city_key>
+        <province_id>0</province_id>
+        <letter>m</letter>
+    </city>
+    <city sequence="315">
+        <city_name>福州市</city_name>
+        <city_key>闽a</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="316">
+        <city_name>莆田市</city_name>
+        <city_key>闽b</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="317">
+        <city_name>泉州市</city_name>
+        <city_key>闽c</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="318">
+        <city_name>厦门市</city_name>
+        <city_key>闽d</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="319">
+        <city_name>漳州市</city_name>
+        <city_key>闽e</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="320">
+        <city_name>龙岩市</city_name>
+        <city_key>闽f</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="321">
+        <city_name>三明市</city_name>
+        <city_key>闽g</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="322">
+        <city_name>南平市</city_name>
+        <city_key>闽h</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="323">
+        <city_name>宁德市</city_name>
+        <city_key>闽j</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="324">
+        <city_name>省直系统</city_name>
+        <city_key>闽k</city_key>
+        <province_id>314</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="325">
+        <city_name>贵州省(贵)</city_name>
+        <city_key>贵</city_key>
+        <province_id>0</province_id>
+        <letter>g</letter>
+    </city>
+    <city sequence="326">
+        <city_name>贵阳市</city_name>
+        <city_key>贵a</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="327">
+        <city_name>六盘水市</city_name>
+        <city_key>贵b</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="328">
+        <city_name>遵义市</city_name>
+        <city_key>贵c</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="329">
+        <city_name>铜仁市</city_name>
+        <city_key>贵d</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="330">
+        <city_name>黔西南布依族苗族自治州</city_name>
+        <city_key>贵e</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="331">
+        <city_name>毕节市</city_name>
+        <city_key>贵f</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="332">
+        <city_name>安顺市</city_name>
+        <city_key>贵g</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="333">
+        <city_name>黔东南苗族侗族自治州</city_name>
+        <city_key>贵h</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="334">
+        <city_name>黔南布依族苗族自治州</city_name>
+        <city_key>贵j</city_key>
+        <province_id>325</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="335">
+        <city_name>四川省(川)</city_name>
+        <city_key>川</city_key>
+        <province_id>0</province_id>
+        <letter>c</letter>
+    </city>
+    <city sequence="336">
+        <city_name>成都市</city_name>
+        <city_key>川a</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="337">
+        <city_name>绵阳市</city_name>
+        <city_key>川b</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="338">
+        <city_name>自贡市</city_name>
+        <city_key>川c</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="339">
+        <city_name>攀枝花市</city_name>
+        <city_key>川d</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="340">
+        <city_name>泸州市</city_name>
+        <city_key>川e</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="341">
+        <city_name>德阳市</city_name>
+        <city_key>川f</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="342">
+        <city_name>广元市</city_name>
+        <city_key>川h</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="343">
+        <city_name>遂宁市</city_name>
+        <city_key>川j</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="344">
+        <city_name>内江市</city_name>
+        <city_key>川k</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="345">
+        <city_name>乐山市</city_name>
+        <city_key>川l</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="346">
+        <city_name>资阳市</city_name>
+        <city_key>川m</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="349">
+        <city_name>宜宾市</city_name>
+        <city_key>川q</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="350">
+        <city_name>南充市</city_name>
+        <city_key>川r</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="351">
+        <city_name>达州市</city_name>
+        <city_key>川s</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="352">
+        <city_name>雅安市</city_name>
+        <city_key>川t</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="353">
+        <city_name>阿坝藏族羌族自治州</city_name>
+        <city_key>川u</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="354">
+        <city_name>甘孜藏族自治州</city_name>
+        <city_key>川v</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="355">
+        <city_name>凉山彝族自治州</city_name>
+        <city_key>川w</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="356">
+        <city_name>广安市</city_name>
+        <city_key>川x</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="357">
+        <city_name>巴中市</city_name>
+        <city_key>川y</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="358">
+        <city_name>眉山市</city_name>
+        <city_key>川z</city_key>
+        <province_id>335</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="359">
+        <city_name>青海省(青)</city_name>
+        <city_key>青</city_key>
+        <province_id>0</province_id>
+        <letter>q</letter>
+    </city>
+    <city sequence="360">
+        <city_name>西宁市</city_name>
+        <city_key>青a</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="361">
+        <city_name>海东市</city_name>
+        <city_key>青b</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="362">
+        <city_name>海北藏族自治州</city_name>
+        <city_key>青c</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="363">
+        <city_name>黄南藏族自治州</city_name>
+        <city_key>青d</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="364">
+        <city_name>海南藏族自治州</city_name>
+        <city_key>青e</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="365">
+        <city_name>果洛藏族自治州</city_name>
+        <city_key>青f</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="366">
+        <city_name>玉树藏族自治州</city_name>
+        <city_key>青g</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="367">
+        <city_name>海西蒙古族藏族自治州</city_name>
+        <city_key>青h</city_key>
+        <province_id>359</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="368">
+        <city_name>西藏(藏)</city_name>
+        <city_key>藏</city_key>
+        <province_id>0</province_id>
+        <letter>z</letter>
+    </city>
+    <city sequence="369">
+        <city_name>拉萨市</city_name>
+        <city_key>藏a</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="370">
+        <city_name>昌都地区</city_name>
+        <city_key>藏b</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="371">
+        <city_name>山南地区</city_name>
+        <city_key>藏c</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="372">
+        <city_name>日喀则地区</city_name>
+        <city_key>藏d</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="373">
+        <city_name>那曲地区</city_name>
+        <city_key>藏e</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="374">
+        <city_name>阿里地区</city_name>
+        <city_key>藏f</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="375">
+        <city_name>林芝地区</city_name>
+        <city_key>藏g</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="376">
+        <city_name>驻四川省天全县车辆管理所</city_name>
+        <city_key>藏h</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="377">
+        <city_name>驻青海省格尔木市车辆管理所</city_name>
+        <city_key>藏j</city_key>
+        <province_id>368</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="378">
+        <city_name>海南省(琼)</city_name>
+        <city_key>琼</city_key>
+        <province_id>0</province_id>
+        <letter>q</letter>
+    </city>
+    <city sequence="379">
+        <city_name>海口市</city_name>
+        <city_key>琼a</city_key>
+        <province_id>378</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="380">
+        <city_name>三亚市</city_name>
+        <city_key>琼b</city_key>
+        <province_id>378</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="381">
+        <city_name>琼海市</city_name>
+        <city_key>琼c</city_key>
+        <province_id>378</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="382">
+        <city_name>五指山市</city_name>
+        <city_key>琼d</city_key>
+        <province_id>378</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="383">
+        <city_name>洋浦开发区</city_name>
+        <city_key>琼e</city_key>
+        <province_id>378</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="384">
+        <city_name>宁夏回族(宁)</city_name>
+        <city_key>宁</city_key>
+        <province_id>0</province_id>
+        <letter>n</letter>
+    </city>
+    <city sequence="385">
+        <city_name>银川市</city_name>
+        <city_key>宁a</city_key>
+        <province_id>384</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="386">
+        <city_name>石嘴山市</city_name>
+        <city_key>宁b</city_key>
+        <province_id>384</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="387">
+        <city_name>银南市</city_name>
+        <city_key>宁c</city_key>
+        <province_id>384</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="388">
+        <city_name>固原市</city_name>
+        <city_key>宁d</city_key>
+        <province_id>384</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="389">
+        <city_name>中卫市</city_name>
+        <city_key>宁e</city_key>
+        <province_id>384</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="390">
+        <city_name>重庆市(渝)</city_name>
+        <city_key>渝</city_key>
+        <province_id>0</province_id>
+        <letter>y</letter>
+    </city>
+    <city sequence="391">
+        <city_name>重庆市区(江南)</city_name>
+        <city_key>渝a</city_key>
+        <province_id>390</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="392">
+        <city_name>重庆市区(江北)</city_name>
+        <city_key>渝b</city_key>
+        <province_id>390</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="393">
+        <city_name>永川区</city_name>
+        <city_key>渝c</city_key>
+        <province_id>390</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="394">
+        <city_name>万州区</city_name>
+        <city_key>渝f</city_key>
+        <province_id>390</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="395">
+        <city_name>涪陵区</city_name>
+        <city_key>渝g</city_key>
+        <province_id>390</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="396">
+        <city_name>黔江区</city_name>
+        <city_key>渝h</city_key>
+        <province_id>390</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="397">
+        <city_name>北京市(京)</city_name>
+        <city_key>京</city_key>
+        <province_id>0</province_id>
+        <letter>j</letter>
+    </city>
+    <city sequence="398">
+        <city_name>北京市</city_name>
+        <city_key>京a</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="399">
+        <city_name>北京市</city_name>
+        <city_key>京b</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="400">
+        <city_name>北京市</city_name>
+        <city_key>京c</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="401">
+        <city_name>北京市</city_name>
+        <city_key>京d</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="402">
+        <city_name>北京市</city_name>
+        <city_key>京e</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="403">
+        <city_name>北京市</city_name>
+        <city_key>京f</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="404">
+        <city_name>北京市</city_name>
+        <city_key>京g</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="405">
+        <city_name>北京市</city_name>
+        <city_key>京h</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="406">
+        <city_name>北京市</city_name>
+        <city_key>京j</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="407">
+        <city_name>北京市</city_name>
+        <city_key>京k</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="408">
+        <city_name>北京市</city_name>
+        <city_key>京l</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="409">
+        <city_name>北京市</city_name>
+        <city_key>京m</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="410">
+        <city_name>北京市</city_name>
+        <city_key>京y</city_key>
+        <province_id>397</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="411">
+        <city_name>天津市( 津)</city_name>
+        <city_key>津</city_key>
+        <province_id>0</province_id>
+        <letter>j</letter>
+    </city>
+    <city sequence="412">
+        <city_name>天津市</city_name>
+        <city_key>津a</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="413">
+        <city_name>天津市</city_name>
+        <city_key>津b</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="414">
+        <city_name>天津市</city_name>
+        <city_key>津c</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="415">
+        <city_name>天津市</city_name>
+        <city_key>津d</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="416">
+        <city_name>天津市</city_name>
+        <city_key>津e</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="417">
+        <city_name>天津市</city_name>
+        <city_key>津f</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="418">
+        <city_name>天津市</city_name>
+        <city_key>津g</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="419">
+        <city_name>天津市</city_name>
+        <city_key>津h</city_key>
+        <province_id>411</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="420">
+        <city_name>上海市(沪)</city_name>
+        <city_key>沪</city_key>
+        <province_id>0</province_id>
+        <letter>h</letter>
+    </city>
+    <city sequence="421">
+        <city_name>上海市</city_name>
+        <city_key>沪a</city_key>
+        <province_id>420</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="422">
+        <city_name>上海市</city_name>
+        <city_key>沪b</city_key>
+        <province_id>420</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="423">
+        <city_name>上海市</city_name>
+        <city_key>沪c</city_key>
+        <province_id>420</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="424">
+        <city_name>上海市</city_name>
+        <city_key>沪d</city_key>
+        <province_id>420</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="425">
+        <city_name>崇明、长兴、横沙</city_name>
+        <city_key>沪r</city_key>
+        <province_id>420</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="426">
+        <city_name>军区</city_name>
+        <city_key>null</city_key>
+        <province_id>0</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="427">
+        <city_name>军委、四总部、大区级军直单位</city_name>
+        <city_key>军v</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="428">
+        <city_name>空军 </city_name>
+        <city_key>空k</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="429">
+        <city_name>海军</city_name>
+        <city_key>海h</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="430">
+        <city_name>北京军区</city_name>
+        <city_key>北b</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="431">
+        <city_name>沈阳军区</city_name>
+        <city_key>沈s</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="432">
+        <city_name>兰州军区</city_name>
+        <city_key>兰l</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="433">
+        <city_name>济南军区</city_name>
+        <city_key>济j</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="434">
+        <city_name>南京军区</city_name>
+        <city_key>南n</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="435">
+        <city_name>广州军区</city_name>
+        <city_key>广g</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+    <city sequence="436">
+        <city_name>成都军区</city_name>
+        <city_key>成c</city_key>
+        <province_id>426</province_id>
+        <letter>null</letter>
+    </city>
+</cityOfNation>
