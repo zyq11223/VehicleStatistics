@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:hdp="http://www.springframework.org/schema/hadoop" xmlns:batch="http://www.springframework.org/schema/batch"
+    xmlns:solr="http://www.springframework.org/schema/data/solr"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	  http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	  http://www.springframework.org/schema/batch	http://www.springframework.org/schema/batch/spring-batch.xsd
+	  http://www.springframework.org/schema/hadoop http://www.springframework.org/schema/hadoop/spring-hadoop.xsd
+	  http://www.springframework.org/schema/data/solr http://www.springframework.org/schema/data/solr/spring-solr-1.0.xsd">
+	  
+	  
+	<!-- Mysql数据库连接池 -->
+	<bean id="mysqlDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass"><value>${mysql.connection.driver.class}</value></property>
+		<property name="jdbcUrl"><value>${mysql.connection.url}</value></property>
+		<property name="user"><value>${mysql.connection.username}</value></property>
+		<property name="password"><value>${mysql.connection.password}</value></property>
+		<property name="minPoolSize"><value>1</value></property>
+		<property name="maxPoolSize"><value>150</value></property>
+		<property name="maxIdleTime"><value>60</value></property>
+		<property name="acquireIncrement"><value>5</value></property>
+		<property name="maxStatements"><value>0</value></property>
+		<property name="initialPoolSize"><value>10</value></property>
+		<property name="idleConnectionTestPeriod"><value>60</value></property>
+		<property name="acquireRetryAttempts"><value>30</value></property>
+		<property name="breakAfterAcquireFailure"><value>false</value></property>
+		<property name="testConnectionOnCheckout"><value>false</value></property>
+		<!--连接池用完时客户调用getConnection()后等待获取连接的时间，单位：毫秒。超时后会抛出-->  
+ 		<!--SQLEXCEPTION，如果设置0，则无限等待。Default:0-->  
+ 		<property name="checkoutTimeout"><value>3000</value></property>
+	</bean>
+
+	
+	<!-- masterMysqlHibernateTemplate -->
+	<bean id="mysqlHibernateTemplate" class="com.fhzz.core.dao.HibernateTemplateSupport">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+
+	<!-- MysqlJdbcTemplate -->
+	<bean id="mysqlJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="mysqlDataSource" />
+	</bean>
+
+</beans>
