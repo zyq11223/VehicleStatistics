@@ -1,5 +1,4 @@
 package com.datascience.test
-
 import org.apache.spark.{SparkConf, SparkContext}
 
 
@@ -67,6 +66,5 @@ object FindTrack {
         y
       }
     }
-    println(mds)
   }
 }
