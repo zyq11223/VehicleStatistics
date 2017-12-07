@@ -67,6 +67,5 @@ object FindTrack {
         y
       }
     }
-    println(mds)
   }
 }
