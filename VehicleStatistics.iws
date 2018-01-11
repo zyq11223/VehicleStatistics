@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1aa1ef4-0725-4334-a33d-98dcffe9ee80" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala" afterPath="$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VehicleStatistics.iws" afterPath="$PROJECT_DIR$/VehicleStatistics.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="VehicleStatistics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -257,32 +254,6 @@
             <path>
               <item name="VehicleStatistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="VehicleStatistics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VehicleStatistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VehicleStatistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VehicleStatistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VehicleStatistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VehicleStatistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VehicleStatistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="datascience" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VehicleStatistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VehicleStatistics" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="datascience" type="462c0819:PsiDirectoryNode" />
-              <item name="kmeans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -747,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515681182583</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml">
+      <created>1515681662985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515681662985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -833,7 +811,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ali" />
-    <option name="LAST_COMMIT_MESSAGE" value="ali" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
