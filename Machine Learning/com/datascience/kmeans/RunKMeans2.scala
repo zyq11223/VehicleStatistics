@@ -3,7 +3,6 @@ package com.datascience.kmeans
 import org.apache.spark.mllib.clustering.{KMeansModel, KMeans}
 import org.apache.spark.mllib.linalg.{Vectors,Vector}
 import org.apache.spark.rdd.RDD
-<<<<<<< HEAD
 import org.apache.spark.{SparkConf, SparkContext}
 
 
@@ -11,7 +10,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * Created by yqs on 2017/12/5.
   */
-object RunKMeans {
+object RunKMeans2 {
 
   def distance(a:Vector,b:Vector) =
     math.sqrt(a.toArray.zip(b.toArray).map(p => p._1 - p._2).map(d => d * d).sum)
@@ -101,40 +100,7 @@ object RunKMeans {
 
 
     val normalizedData = data.map(normalize).cache()
-    (60 to 120 by 20).par.map(k => (k,clusteringScore(normalizedData,k))).toList.foreach(println)
-
-
+    (60 to 120 by 10).par.map(k => (k,clusteringScore(normalizedData,k))).toList.foreach(println)
   }
 
-=======
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.{SparkConf, SparkContext}
-/**
-  * Created by yqs on 2017/12/7.
-  */
-object RunKMeans {
-  def main(args: Array[String]) {
-    val spark = SparkSession.builder().getOrCreate()
-    val data = spark.read.
-      option("inferSchema", true).
-      option("header", false).
-      csv("/user/ds/kddcup/"+"/kddcup.data").
-      toDF(
-        "duration", "protocol_type", "service", "flag",
-        "src_bytes", "dst_bytes", "land", "wrong_fragment", "urgent",
-        "hot", "num_failed_logins", "logged_in", "num_compromised",
-        "root_shell", "su_attempted", "num_root", "num_file_creations",
-        "num_shells", "num_access_files", "num_outbound_cmds",
-        "is_host_login", "is_guest_login", "count", "srv_count",
-        "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate",
-        "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate",
-        "dst_host_count", "dst_host_srv_count",
-        "dst_host_same_srv_rate", "dst_host_diff_srv_rate",
-        "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate",
-        "dst_host_serror_rate", "dst_host_srv_serror_rate",
-        "dst_host_rerror_rate", "dst_host_srv_rerror_rate",
-        "label")
-
-  }
->>>>>>> origin/master
 }
