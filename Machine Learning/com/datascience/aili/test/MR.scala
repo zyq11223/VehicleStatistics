@@ -84,7 +84,7 @@ object MR {
       * 广播变量共享数据
       */
     val broadcastVar = sc.broadcast(domainDic)
-    var result = rawData.map(line =>(parse(broadcastVar.value, line),1)).reduceByKey(_+_).sortBy(_._2,false)
+    val result = rawData.map(line =>(parse(broadcastVar.value, line),1)).reduceByKey(_+_).sortBy(_._2,false)
     result.collect().foreach(println)
     result.saveAsTextFile(base + "result/")
   }
