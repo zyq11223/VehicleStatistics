@@ -9,18 +9,7 @@ object TwoSum {
     val array = new Array[Int](len)
     array
   }
-
-  def minAndMax(nums:Array[Int]):Array[Int] ={
-    var min  = 0
-    var max = 0
-    for (num <- nums)
-    {
-      min = if(min <= num) min else num
-      max = if(max >= num) min else num
-    }
-    Array(min,max)
-  }
-
+  
   def main(args: Array[String]) {
 
   }
