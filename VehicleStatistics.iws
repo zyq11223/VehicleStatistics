@@ -6,16 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1aa1ef4-0725-4334-a33d-98dcffe9ee80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VehicleStatistics.iml" afterPath="$PROJECT_DIR$/VehicleStatistics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VehicleStatistics.ipr" afterPath="$PROJECT_DIR$/VehicleStatistics.ipr" />
+    <list default="true" id="a1aa1ef4-0725-4334-a33d-98dcffe9ee80" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala" afterPath="$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VehicleStatistics.iws" afterPath="$PROJECT_DIR$/VehicleStatistics.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <list id="2fd55af1-4ea7-4a0a-960a-c2bacdebb853" name="Rejected commit: Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/com/leetcode/test/TwoSum.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/leetcode/com/leetcode/test/Solution.scala" afterPath="" />
     </list>
     <ignored path="VehicleStatistics.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/leetcode/com/leetcode/test/TwoSum.scala" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +38,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MR.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/aili/test/MR.scala">
+      <file leaf-file-name="DailyTemperatures.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68222624">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="5" selection-start-line="6" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunKMeans.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43909347">
+              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+              <folding>
+                <element signature="e#32#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoSum.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/com/leetcode/test/TwoSum.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.107143">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="40.035713">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,9 +138,13 @@
         <option value="$PROJECT_DIR$/Machine Learning/com/datascience/test/SecondarySort.scala" />
         <option value="$PROJECT_DIR$/src/com/test/SparkTest.scala" />
         <option value="$PROJECT_DIR$/Machine Learning/com/datascience/test/Track.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Machine Learning/com/datascience/test/FindTrack.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/SparkTest.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala" />
+        <option value="$PROJECT_DIR$/leetcode/com/leetcode/test/Solution.scala" />
+        <option value="$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala" />
+        <option value="$PROJECT_DIR$/leetcode/com/leetcode/test/TwoSum.scala" />
       </list>
     </option>
   </component>
@@ -124,10 +166,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -236,20 +276,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VehicleStatistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VehicleStatistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -268,6 +294,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="vehiclestatistics" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -290,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VehicleInfoStatistics">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="false" name="MultiplyByTwo" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -319,6 +346,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.fhzz.business.service.vehicle.statistics.VehicleInfoStatistics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="VehicleStatistics" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.test.DailyTemperatures" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -655,15 +702,17 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.MultiplyByTwo" />
       <item index="2" class="java.lang.String" itemvalue="Application.VehicleInfoStatistics" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.VehicleInfoStatistics" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MultiplyByTwo" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.VehicleInfoStatistics" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MultiplyByTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -723,7 +772,19 @@
       <option name="project" value="LOCAL" />
       <updated>1515681662985</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml">
+      <created>1515980394886</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515980394886</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Machine Learning/com/datascience/kmeans/RunKMeans.scala&#10;#&#9;pom.xml">
+      <created>1515980679337</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515980679337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -736,34 +797,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50342464" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5026362" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7029877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52899826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21898928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66783834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6683761" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70535713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52991456" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -773,7 +834,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -851,59 +912,44 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="29" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="temperatures(i)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="92" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhzz/core/tools/StreamUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhzz/core/dao/HibernateTemplateSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhzz/core/tools/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="881" column="16" selection-start-line="881" selection-start-column="16" selection-end-line="881" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1130,7 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,31 +1183,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6247756">
           <caret line="101" column="52" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/aili/test/MR.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37589929">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7185185">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+          <folding>
+            <element signature="e#1325#1326#0" expanded="false" />
+            <element signature="e#1349#1350#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/scala/scala-2.10.5/lib/scala-library.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala">
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/IllegalArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03411131">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="92" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.07037037">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/com/leetcode/test/DailyTemperatures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="6" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/com/leetcode/test/TwoSum.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035916824">
-          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+        <state vertical-scroll-proportion="40.035713">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/aili/test/MR.scala">
+    <entry file="file://$PROJECT_DIR$/Machine Learning/com/datascience/kmeans/RunKMeans.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68222624">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.43909347">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
