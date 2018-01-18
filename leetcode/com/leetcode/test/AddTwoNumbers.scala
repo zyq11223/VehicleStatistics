@@ -18,7 +18,6 @@ object AddTwoNumbers {
       case _ => false
     }
   }
-
   def pow(x: Int, y: Int):Int = if(y-1>=0) x* pow(x,y-1)else return 1
 
   def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
