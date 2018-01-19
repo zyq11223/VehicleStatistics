@@ -12,54 +12,6 @@ object AddTwoNumbers {
     var next: ListNode = null
     var x: Int = _x
   }
-  def isIntByRegex(s : String) = {
-    val pattern = """^(\d+)$""".r
-    s match {
-      case pattern(_*) => true
-      case _ => false
-    }
-  }
-  def pow(x: Int, y: Int):Int = if(y>=1) x* pow(x,y-1) else return 1
-
-//  char *addBigInter(const char *a,const char *b) {
-//    char *result = NULL;
-//    int i, j, resultLen;
-//    int len1 = strlen(a);
-//    int len2 = strlen(b);
-//    resultLen = (len1 > len2) ? len1: len2;
-//    result = (char *)malloc((resultLen+2)*sizeof(char));
-//    memset(result, '0', (resultLen+1)*sizeof(char));
-//    result[resultLen+1] = '\0';
-//    int carry = 0, temp;
-//    for(i=len1-1, j=len2-1; i>=0 || j>=0; i--, j--, resultLen--)
-//    {
-//      temp = carry;
-//      if(i>=0) temp += a[i] - '0';
-//      if(j>=0) temp += b[j] - '0';
-//      if (temp >= 10) {
-//        result[resultLen] = temp - 10 + '0';
-//        carry = 1;
-//      } else {
-//        result[resultLen] = temp + '0';
-//        carry = 0;
-//      }
-//    }
-//    result[resultLen] = carry + '0';
-//    return result;
-//  }
-
-
-//  def addBigInter(a:String,b:String) :String ={
-//     val aChar = convert(a)
-//     val bChar =  convert(b)
-//
-//
-//  }
-
-
-  /**
-    * 转化为ArrayBuffer
-    */
   def toArrayBuffer(l: ListNode): ArrayBuffer[Int] = {
     var temp = l
     var b = new ArrayBuffer[Int]()
@@ -74,11 +26,6 @@ object AddTwoNumbers {
     result
   }
 
-  def convert(s:String):Array[Char] = {
-    val aChar = new Array[Char](s.length)
-    for (i<- 0 until s.length)  aChar(i) = s.charAt(i)
-    aChar
-  }
 
   def add(l1:ArrayBuffer[Int],l2:ArrayBuffer[Int]):ArrayBuffer[Int] = {
 
@@ -103,7 +50,7 @@ object AddTwoNumbers {
         result += temp - 10
         carry = 1
       } else {
-        result += temp - 10
+        result += temp
         carry = 0
       }
     }
@@ -123,33 +70,13 @@ object AddTwoNumbers {
       j += 1
     }
 
-        for (i <- 0 until linkList.length) {
-          if (i + 1 <= linkList.length - 1) {
-            linkList(i).next =linkList(i + 1)
-          }
-        }
-    linkList(0)
-
-
-//    val sum = toInt(l1) + toInt(l2)
-//    val sumString = String.valueOf(sum)
-//    val linkList = new Array[ListNode](sumString.length)
-//    var j = 0
-//    for (i <- (0 to sumString.length - 1).reverse) {
-//      val c = sumString.charAt(i).toString
-//      if(isIntByRegex(c)){
-//        linkList(j) = new ListNode(Integer.parseInt(sumString.charAt(i).toString))
-//        j = j+ 1
-//      }
-//    }
-//    for (i <- 0 until linkList.length) {
-//      if (i + 1 <= linkList.length - 1) {
-//        linkList(i).next =linkList(i + 1)
-//      }
-//    }
-//    linkList(0)
+    for (i <- (0 to linkList.length-1).reverse) {
+      if (i -1  >= 0) {
+        linkList(i).next =linkList(i - 1)
+      }
+    }
+    linkList(linkList.length-1)
   }
-
 
   def main(args: Array[String]) {
     val listNode1 = Array[Int](2 , 4 , 3)
