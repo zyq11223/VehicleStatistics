@@ -56,7 +56,7 @@ object RunKMeans {
 
     clusterLabelCount.toSeq.sorted.foreach {
       case ((cluster, label), count) =>
-        println(format("%1s %18s %8s", cluster, label, count))
+//        println(format("%1s %18s %8s", cluster, label, count))
     }
 
     //    (5 to 40 by 5).map(k => (k,clusteringScore(data,k))).foreach(println)
