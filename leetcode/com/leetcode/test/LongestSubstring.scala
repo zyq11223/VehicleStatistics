@@ -1,7 +1,6 @@
 package com.leetcode.test
 
-import scala.collection.mutable
-
+import scala.util.control.Breaks._
 
 //Given a string, find the length of the longest substring without repeating characters.
 //Examples:
@@ -31,15 +30,17 @@ object LongestSubstring {
     result
   }
 
-  def lengthOfLongestSubstring(s: String): Int = {
+  def lengthOfLongestSubstring(s: String) = {
     var first = 0
     var last = s.length -1
     val key = s(first)
     while(first<last){
       val key = s(first)
-      while(first<last && s.charAt(last) != key){
-        last -= 1
+      while(first<last && s.charAt(last) != key)  last -= 1
+      if(key == s.charAt(last)) {
+        if(checkDifferent(s.substring(first,last-1))) break
       }
+
     }
       last- first
   }
