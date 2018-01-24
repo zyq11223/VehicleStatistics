@@ -40,7 +40,10 @@ object LongestSubstring {
       if(key == s.charAt(last)) {
         if(checkDifferent(s.substring(first,last-1))) break
       }
-
+      else {
+        first +=1
+        last = s.length -1
+      }
     }
       last- first
   }
