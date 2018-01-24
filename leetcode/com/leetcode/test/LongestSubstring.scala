@@ -32,11 +32,16 @@ object LongestSubstring {
   }
 
   def lengthOfLongestSubstring(s: String): Int = {
-    val len = 0
-    val max = 0
-    var map = mutable.HashMap[String,Int]()
-
-    len
+    var first = 0
+    var last = s.length -1
+    val key = s(first)
+    while(first<last){
+      val key = s(first)
+      while(first<last && s.charAt(last) != key){
+        last -= 1
+      }
+    }
+      last- first
   }
 
   def main(args: Array[String]): Unit = {
