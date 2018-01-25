@@ -1,55 +1,40 @@
 package com.leetcode.test
 
-import scala.util.control.Breaks._
+import scala.collection.mutable
 
-//Given a string, find the length of the longest substring without repeating characters.
-//Examples:
-//Given "abcabcbb", the answer is "abc", which the length is 3.
-//Given "bbbbb", the answer is "b", with the length of 1.
-//Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+//思路：HashMap+Two Pointer——用HashMap标记某个字符最晚出现的地方。用pre标记不重复的起始位置。当出现重复字符的时候，分成三种情况讨论：
+//1）原有重复字符正好是pre节点
+//2）原有重复字符不是pre节点
+//a）原有重复字符在pre节点之后
+//b）原有重复字符在pre节点之前
 
 object LongestSubstring {
-
-  /**
-    *判断是否有相同字符
-    */
-  def checkDifferent(inisString: String): Boolean = {
-    val array = new Array[Int](256)
-    val len = inisString.length
-    var result = true
-    var flag = true
-    if (len > 256) result = false
-    for(i<- 0 to len -1 if flag ){
-      val x = inisString(i)
-      array(x) = array(x)+1
-      if(array(x)>1) {
-        result = false
-        flag = false
+  def lengthOfLongestSubstring(s: String): Int = {
+    var max = 0
+    var pre =0
+    val hm = new mutable.HashMap[Char,Int]()
+    for(i<-0 until s.length){
+      val c = s.charAt(i)
+      if(!hm.contains(c)){
+        hm.put(c,i)
+        max = Math.max(max,i-pre+1)
+      }else{
+        if(pre <= hm(c)){
+          max = Math.max(max,i - hm(c))
+          pre = hm(c) + 1
+        }
+        else max = Math.max(max,i - pre + 1)
+        hm.put(c,i)
       }
     }
-    result
-  }
-
-  def lengthOfLongestSubstring(s: String) = {
-    var first = 0
-    var last = s.length -1
-    val key = s(first)
-    while(first<last){
-      val key = s(first)
-      while(first<last && s.charAt(last) != key)  last -= 1
-      if(key == s.charAt(last)) {
-        if(checkDifferent(s.substring(first,last-1))) break
-      }
-      else {
-        first +=1
-        last = s.length -1
-      }
-    }
-      last- first
+    max
   }
 
   def main(args: Array[String]): Unit = {
-    val str = "abcabcbb"
-    println(checkDifferent(str))
+//    val str = "abcabcbb"
+//    val str = "bbbbb"
+//   val str = "pwwkew"
+  val str = "cdd"
+    println(lengthOfLongestSubstring(str))
   }
 }
