@@ -28,8 +28,6 @@ class LawCaseOnSparkStreaming
     rdd
   }
 
-
-
   def getConsumer() {
     try {
       /**
