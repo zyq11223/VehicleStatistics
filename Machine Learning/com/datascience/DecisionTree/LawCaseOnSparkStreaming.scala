@@ -31,11 +31,11 @@ class LawCaseOnSparkStreaming
   def getConsumer() {
     try {
       /**
-        * 初始化SparkContext，批量间隔为5s
+        * 初始化SparkContext，批量间隔为1s
         */
       val sparkConf = new SparkConf().setAppName("LawCaseOnSparkStreaming").set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-      val ssc: StreamingContext = new StreamingContext(sparkConf, Seconds(2))
       val sc = new SparkContext(sparkConf)
+      val ssc: StreamingContext = new StreamingContext(sc, Seconds(1))
       ssc.checkpoint("checkpoint")
 
       val modeData = sc.textFile("/user/ml")
@@ -65,7 +65,7 @@ class LawCaseOnSparkStreaming
               val todayData = LabeledPoint(0, Vectors.dense(inputData))
               val todayLabel = model.predict(todayData.features)
 //              val insertLawCaseResult = new InsertLawCaseResult()
-//              insertLawCaseResult.insert(inputData.toString, todayLabel)
+            //              insertLawCaseResult.insert(inputData.toString, todayLabel)
           }
       }
       ssc.start()
