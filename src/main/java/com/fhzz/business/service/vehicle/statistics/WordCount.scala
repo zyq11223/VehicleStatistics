@@ -19,9 +19,9 @@ class WordCount extends Serializable {
       * 初始化SparkContext，批量间隔为5s
       */
     val sparkConf = new SparkConf().setAppName("VehicleInfoStatisticsApp").set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-//      .set("spark.rpc.netty.dispatcher.numThreads", "5").set("spark.executor.cores", "5").set("spark.num.executors", "5")
-//      .set("spark.driver.memory", "5G")
-//      .set("spark.executor.memory", "20G")
+    //      .set("spark.rpc.netty.dispatcher.numThreads", "5").set("spark.executor.cores", "5").set("spark.num.executors", "5")
+    //      .set("spark.driver.memory", "5G")
+    //      .set("spark.executor.memory", "20G")
     val batchDuration = Seconds(2)
 
     // 建立Spark Streaming启动环境
@@ -41,7 +41,7 @@ class WordCount extends Serializable {
       "serializer.class" -> "kafka.serializer.StringEncoder",
       "zookeeper.connect" -> zkQuorum,
       "auto.offset.reset" -> "largest",
-       "group.id" -> group
+      "group.id" -> group
     )
     val rdd = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topics).map(_._2)
     rdd
@@ -50,9 +50,11 @@ class WordCount extends Serializable {
   /**
     * 统计小时车流量
     */
-  def statisticsFlow(json: JSONObject) = {
-    var jgday = new String()
+  def statisticsFlow(msgLine: String):String = {
+    var jgday = ""
     try {
+
+      val json = JSONObject.fromObject(msgLine)
       val jgsk = json.getString("JGSK")
       /**
         * 异常数据不统计
@@ -61,7 +63,10 @@ class WordCount extends Serializable {
         jgday = jgsk.substring(0, 10)
     }
     catch {
-      case e: Exception => println("车流量统计:初始化失败" + e, e)
+      case e: Exception =>  println("车流量统计:初始化失败" + e, e)
+    }
+    finally {
+      return jgday
     }
     jgday
   }
@@ -81,7 +86,7 @@ class WordCount extends Serializable {
       val producerConf = new Properties()
       producerConf.put("serializer.class", "kafka.serializer.StringEncoder")
       producerConf.put("metadata.broker.list", "172.21.89.7:21005,172.21.89.8:21005,172.21.89.6:21005")
-//      producerConf.put("request.required.acks", "1")
+      producerConf.put("request.required.acks", "1")
       val config = new ProducerConfig(producerConf)
       val producer = new Producer[String, String](config)
       val msg = "{\"Type\":\"vehicle\",\"Time\":" + "\"" + key + "\"" + ",\"Nums\":" + value + "}"
@@ -96,8 +101,7 @@ class WordCount extends Serializable {
     ssc.checkpoint("checkpoint")
     val rdd = getLineRDD(ssc,brokers,topicsName,group)
     val vehicleData = rdd.map(msgLine => {
-      val json = JSONObject.fromObject(msgLine)
-      val vehicleFlowData = statisticsFlow(json)
+      val vehicleFlowData = statisticsFlow(msgLine)
       (vehicleFlowData,1)
     })
 
